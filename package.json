@@ -1,0 +1,18 @@
+{
+  "name": "zadanie7.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/browser-sync start --server --files 'test.html'",
+    "test": "node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "nu-html-checker": "^0.1.0"
+  }
+}
