@@ -1,8 +1,10 @@
 *{
 	padding:0;
 	margin:0;
-	display: -ms-flexbox;
-	display: flex;
+	}
+	a {
+		display: -ms-flexbox;
+		display: flex;
 	}
 header {
 	width:100%;

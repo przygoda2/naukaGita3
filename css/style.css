@@ -1,7 +1,9 @@
 *{
 	padding:0;
 	margin:0;
-	display: flex;
+	}
+	a {
+		display: flex;
 	}
 header {
 	width:100%;
@@ -9,7 +11,6 @@ header {
 	background:#f39c12;
 	color:#fff;
 	padding:30px 0;
-	display: flex;
 	}
 .main {
 	margin:0 auto;

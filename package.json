@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/browser-sync start --server --files 'test.html'",
-    "test": "node_modules/.bin/autoprefixer-cli -o style.prefixed.css style.css"
+    "prefixstyle": "node_modules/.bin/autoprefixer-cli -o css/style.prefixed.css css/style.css",
+	"htmlchecker": "node_modules/.bin/nu-html-checker index.html"
   },
   "keywords": [],
   "author": "",
